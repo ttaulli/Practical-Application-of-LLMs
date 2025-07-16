@@ -1,0 +1,16 @@
+research_task:
+  description: "Research trends and hashtags for {platform}"
+  agent: topic_researcher
+  expected_output: "List of 3–5 trending topics with hashtags"
+
+write_task:
+  description: "Write a post using one topic"
+  agent: post_writer
+  context: [research_task]
+  expected_output: "Draft social media post (max 250 words)"
+
+critique_task:
+  description: "Revise the draft"
+  agent: critic
+  context: [write_task]
+  expected_output: "Improved post-ready for publishing"
