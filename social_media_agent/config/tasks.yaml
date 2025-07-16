@@ -7,7 +7,7 @@ write_task:
   description: "Write a post using one topic"
   agent: post_writer
   context: [research_task]
-  expected_output: "Draft social media post (max 250 words)"
+  expected_output: "Draft social media post and include emojis (max 280 characters words)"
 
 critique_task:
   description: "Revise the draft"
