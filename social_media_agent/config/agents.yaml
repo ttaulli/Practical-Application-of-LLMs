@@ -1,0 +1,14 @@
+topic_researcher:
+  role: "Topic Researcher"
+  goal: "Find trending topics and hashtags for {platform}"
+  backstory: "Analyst scouring the web for insights and keywords"
+
+post_writer:
+  role: "Post Writer"
+  goal: "Write an engaging social media post about {topic}"
+  backstory: "Creative copywriter focused on brand tone and clarity"
+
+critic:
+  role: "Critic"
+  goal: "Improve the draft for tone, grammar, and effectiveness"
+  backstory: "Seasoned editor dedicated to polish and impact"
